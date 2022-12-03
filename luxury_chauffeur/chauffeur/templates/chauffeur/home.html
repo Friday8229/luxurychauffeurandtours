@@ -1,0 +1,623 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Home</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="{% static '/css/home.css' %}"/>
+  </head>
+
+  <body>
+
+    <div class="col-12 row home-carousel mb-5">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="100000">
+            <div class="carousel-container">
+              <div class="image-container">
+                <img src="{% static '/images/item1.jpeg' %}" class="d-block homec-one" alt="item1">
+              </div>
+
+              <div class="carousel-text">
+                EXCELLENCE  PRESTIGE  PERFORMANCE
+
+                <br>
+
+                <div class="carousel-st"> Sustainability and comfort meet luxury chauffeur services</div>
+
+                <div class="carousel-bt">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                  </svg>
+
+                  Make A Reservation
+                </div>
+              </div>
+            </div>            
+          </div>
+
+          <div class="carousel-item" data-bs-interval="2000">
+            
+            <div class="carousel-container">
+              <div class="image-container">
+                <img src="{% static '/images/item2.jpeg' %}" class="d-block homec-one" alt="item2">
+              </div>
+
+              <div class="carousel-t2">
+
+                Distinct elegance and unrivalled performance
+
+                <div class="carousel-bt carousel-bt2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                  </svg>
+
+                  START YOUR JOURNEY
+                </div>
+              </div>
+            </div>           
+          </div>
+
+          <div class="carousel-item">
+            
+            <div class="carousel-container">
+              
+              <div class="image-container">
+                <img src="{% static '/images/item3.jpeg' %}" class="d-block homec-one" alt="item3">
+              </div>
+
+              <div class="carousel-t2">
+
+                Explore iconic locations and destinations undiscovered.
+
+                <div class="carousel-bt carousel-bt2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                  </svg>
+
+                  BOOK NOW
+                </div>
+              </div>
+            </div>         
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="pb-6">
+      
+        <p>
+          <b>
+            <font style="font-size: 24px;">Experience the ultimate sophistication in travel, satisfaction guaranteed</font>
+            <br>
+            <font style="font-size: 24px;">Environmentally conscious, carbon-neutral, eco-luxury chauffeur-driven vehicles</font>
+          </b>
+        </p>
+
+        <p style="text-align: justify;">Luxury chauffeur and tours provides sustainable luxury chauffeur services in Australia. We deliver world-class services with a touch of green, giving our passengers a phenomenal ride while reducing our carbon footprint.</p>
+
+        <p style="text-align: justify;">Our fleet consists of zero-emission vehicles equipped with functional amenities, including onboard device charging systems, packaged drinking water, and free, unrestricted access to spotify premium and wireless internet connectivity for a pure luxe experience.</p>
+
+        <p style="text-align: center;">
+          <b>Eco-luxury vehicles | Superior Service | Private and secure</b>
+          <br>
+        </p>
+
+        <p style="text-align: center; font-size: 16px; font-weight: 500;">&nbsp;</p>
+
+      </div>
+
+      <div class="s_allow_columns o_container_small">
+        <h6 style="text-align: center; font-size: 1.875rem; font-family: TulpenOne;"> Discover our services </h6>
+        <h1 style="text-align: center;"></h1>
+        <div class="s_hr text-left pt32 pb32" data-snippet="s_hr" data-name="Separator">
+          <hr class="w-25 mx-auto" style="text-align: center; border-top-width: 1px; border-top-style: solid;">
+        </div>
+        <p style="text-align: center;">
+          <br>
+        </p>
+      </div>
+    </div>
+
+    <section class="s_features o_colored_level o_animate o_anim_fade_in pb0 pt0 o_visible o_animated" data-snippet="s_features" data-name="Features" style="animation-duration: 2s !important; animation-delay: 0.5s !important; animation-name: o_anim_fade_in; visibility: visible; animation-play-state: running;">
+      <div class="container">
+        <div class="row">
+          <div class="text-center o_colored_level col-lg-3 pt0 pb0">
+            <a href="/events-and-occasion-services">
+              <img src="{%static '/images/cake.png' %}" class="img-responsive" loading="lazy" width="90" height="60">
+            </a>
+            <h3>
+              <font style="font-size: 24px;">
+                <a href="/events-and-occasion-services">PARTY</a>
+              </font>
+            </h3>
+          </div>
+          <div class="text-center o_colored_level col-lg-3 pt0 pb0">
+            <a href="/wedding-services">
+              <img src="{%static '/images/wedding.png' %}" class="img-responsive" loading="lazy" width="90" height="60">
+            </a>
+            <h3>
+              <font style="font-size: 24px;">
+                <a href="/wedding-services">WEDDING</a>
+              </font>
+            </h3>
+          </div>
+          <div class="text-center o_colored_level col-lg-3 pt0 pb0">
+            <a href="/airport-and-cruise-terminal-transfers">
+              <img src="{%static '/images/airport_transfer.png' %}" class="img-responsive" loading="lazy" width="80" height="60">
+            </a>
+            <h3>
+              <font style="font-size: 24px;">
+                <a href="/airport-and-cruise-terminal-transfers">AIRPORT TRANSFER</a>
+              </font>
+            </h3>
+          </div>
+          <div class="text-center o_colored_level col-lg-3 pt0 pb0">
+            <a href="/point-to-point-transfers">
+              <img src="{%static '/images/port_to_point.png' %}" class="img-responsive" loading="lazy" width="80" height="60">
+            </a>
+            <h3>
+              <font style="font-size: 24px;">
+                <a href="/point-to-point-transfers">POINT TO POINT</a>
+              </font>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s_features o_colored_level o_animate o_anim_fade_in pt0 pb0 o_visible o_animated" data-snippet="s_features" data-name="Features" style="animation-delay: 0.5s !important; animation-duration: 2s !important; animation-name: o_anim_fade_in; visibility: visible; animation-play-state: running;">
+      <div class="container">
+        <div class="row">
+          <div class="text-center o_colored_level pt0 pb0 col-lg-3">
+            <a href="/luxury-corporate-transfers">
+              <img src="{%static '/images/corporate.png' %}" class="img-responsive" loading="lazy" width="90" height="60">
+            </a>
+            <h3>
+              <font style="font-size: 24px;">
+                <a href="/luxury-corporate-transfers">CORPORATE</a>
+              </font>
+            </h3>
+          </div>
+          <div class="text-center o_colored_level pb0 pt0 col-lg-3">
+            <a href="/sightseeing">
+              <img src="{%static '/images/SIGHTSEEING.png' %}" class="img-responsive" loading="lazy" width="120" height="60">
+            </a>
+            <h3>
+              <font style="font-size: 24px;">
+                <a href="/sightseeing">SIGHTSEEING</a>
+              </font>
+              <a href="/sightseeing"></a>
+            </h3>
+          </div>
+          <div class="text-center o_colored_level pt0 pb0 col-lg-3">
+            <a href="/tours-services">
+              <img src="{%static '/images/tour_group.png' %}" class="img-responsive" loading="lazy" width="100" height="60">
+            </a>
+            <h3>
+              <font style="font-size: 24px;">
+                <a href="/tours-services" data-original-title="" title="" aria-describedby="tooltip873721">TOUR GROUP</a>
+              </font>
+            </h3>
+          </div>
+          <div class="text-center o_colored_level pt0 pb0 col-lg-3">
+            <a href="/film-and-crew-transfer">
+              <img src="{%static '/images/film_and_tv_crew.png' %}" class="img-responsive" loading="lazy" width="90" height="60">
+            </a>
+            <h3>
+              <a href="/film-and-crew-transfer">
+                <font style="font-size: 24px;" data-original-title="" title="" aria-describedby="tooltip758270">&nbsp;FILM AND TV CREW TRANSFER&nbsp;</font>
+              </a>
+              <br>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s_features o_colored_level o_animate o_anim_fade_in pt0 pb0 o_visible o_animated" data-snippet="s_features" data-name="Features" style="animation-delay: 0.5s !important; animation-duration: 2s !important; animation-name: o_anim_fade_in; visibility: visible; animation-play-state: running;">
+      <div class="container">
+        <div class="row">
+          <div class="text-center o_colored_level pt0 pb0 col-lg-3">
+            <a href="/private-jet-transfer">
+              <img src="{%static '/images/private_jet.png' %}" class="img-responsive" loading="lazy" width="140" height="60">
+            </a>
+            <h3>
+              <font style="font-size: 24px;">
+                <a href="/private-jet-transfer">PRIVATE JET TRANSFER</a>
+              </font>
+            </h3>
+          </div>
+          <div class="text-center o_colored_level pb0 pt0 col-lg-3">
+            <a href="/celebrity-chauffeur">
+              <img src="{%static '/images/celebrity.png' %}" class="img-responsive" loading="lazy" width="55" height="60">
+            </a>
+            <h3>
+              <font style="font-size: 24px;">
+                <a href="/celebrity-chauffeur">CELEBRITY TRANSFER</a>
+              </font>
+            </h3>
+          </div>
+          <div class="text-center o_colored_level pt0 pb0 col-lg-3">
+            <a href="/cruise-ship-transfer">
+              <img src="{%static '/images/cruise.png' %}" class="img-responsive" loading="lazy" width="140" height="60">
+            </a>
+            <h3>
+              <font style="font-size: 24px;">
+                <a href="/cruise-ship-transfer">CRUISE SHIP TRANSFER</a>
+              </font>
+            </h3>
+          </div>
+          <div class="text-center o_colored_level pt0 pb0 col-lg-3">
+            <a href="/modelling-and-product-launch-photography">
+              <img src="{%static '/images/modeling.png' %}" class="img-responsive" loading="lazy" width="90" height="60">
+            </a>
+            <h3>
+              <a href="/modelling-and-product-launch-photography">
+                <font style="font-size: 24px;">MODELLING &amp; PRODUCT LAUNCH PHOTOGRAPHY</font>
+              </a>
+              <span style="font-size: 14px;">&nbsp;</span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s_features o_colored_level o_animate o_anim_fade_in pt0 pb0 o_visible o_animated" data-snippet="s_features" data-name="Features" style="animation-delay: 0.5s !important; animation-duration: 2s !important; animation-name: o_anim_fade_in; visibility: visible; animation-play-state: running;">
+      <div class="container">
+        <div class="row">
+          <div class="text-center o_colored_level pt0 pb0 col-lg-3">
+            <a href="/private-jet-transfer">
+              <img src="{%static '/images/confidential_document.png' %}" class="img-responsive" loading="lazy" width="140" height="60" data-original-title="" title="" aria-describedby="tooltip265222" alt="" data-original-id="3794" data-mimetype="image/png" data-resize-width="215">
+            </a>
+            <h3>
+              <font style="font-size: 24px;">
+                <a href="/confidential-document-delivery" data-original-title="" title="" aria-describedby="tooltip885869">Confidential Document Delivery</a>
+              </font>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="s_features o_colored_level pt0 pb0 o_animate o_anim_fade_in_up o_visible o_animated" data-snippet="s_features" data-name="Features" style="animation-name: o_anim_fade_in_up; visibility: visible; animation-play-state: running;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 o_colored_level text-center pb48 pt0" style="">
+            
+            <p>
+              <a href="#" class="resbt" style="border: 1px solid; padding: 10px; border-radius: 5px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                </svg>
+                &nbsp; MAKE&nbsp; A&nbsp; RESERVATION</a>
+              <br>
+              <br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s_carousel_wrapper o_half_screen_height">
+      <div id="myCarousel1622288562942" class="carousel slide pb-50" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel1622288562942" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel1622288562942" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel1622288562942" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <p style="text-align: justify;">
+          <br>
+        </p>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active" style="min-height: 964.172px; background-color: #ffffff;" data-bs-interval="1000">
+            <div class="container">
+              <div class="row content">
+                <div class="carousel-content col-lg-6 o_colored_level pt48">
+                  <p class="lead">
+                    <br>
+                  </p>
+                  <img class="img-fluid o_we_custom_image" src="{% static '/images/homec2.jpeg' %}" alt="" data-original-title="" title="" aria-describedby="tooltip68953" loading="lazy" data-original-id="695" data-mimetype="image/jpeg" data-resize-width="690">
+                </div>
+                <div class="carousel-content col-lg-6 o_colored_level pt40">
+                  <h5 style="font-size: 2.53125rem; font-family: TulpenOne;">Lexus RX450HL</h5>
+                  <p class="lead">
+                    Distinct elegance and unrivalled performance
+                  </p>
+                  <p class="lead" style="text-align: justify; ">
+                    <font style="font-size: 24px;">From its debut, the 2021 Lexus RX450HL has left a lasting impression in the global vehicle market due to its unrivalled performance, sleek look, and sustainability. The hybrid powertrain, low emission vehicle is not only environmentally conscious; it is an embodiment of pure luxury without compromise, perfect for a phenomenal luxury chauffeur experience.&nbsp;</font>
+                  </p>
+                  <p class="lead" style="text-align: justify; ">
+                    <font style="font-size: 24px;">The vehicle promises a smooth, comfortable ride to elevate your experience, and comes with a spacious interior with a six-passenger and a generously sized trunk to accommodate your luggage and gear.&nbsp;
+                                 &nbsp;</font>
+                    <a href="#" class="mb-2 btn btn-secondary btn-sm" data-original-title="" title="" aria-describedby="tooltip402668">
+                      <font style="font-size: 24px;">Read More</font>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="min-height: 964.172px; background-color: #ffffff;" data-bs-interval="2000">
+            <div class="container">
+              <div class="row content">
+                <div class="carousel-content col-lg-6 o_colored_level">
+                  <h6 style="font-family: TulpenOne; font-size: 1.875rem;">TESLA&nbsp; MODEL&nbsp; X</h6>
+                  <p class="lead">
+                    Prestige, safety, and sustainability redefined
+                  </p>
+                  <p class="lead" style="text-align: justify; ">
+                    <font style="font-size: 24px;">Experience the epitome of luxury travel with a green tick of approval with our Tesla Model X. The luxury suv comes with a 300-kilometer range on a single charge and spacious interiors for comfort, accommodating six passengers and the driver while leaving generous space for your luggage and gear.&nbsp;</font>
+                  </p>
+                  <p class="lead" style="text-align: justify; ">
+                    <font style="font-size: 24px;">The vehicle is the world’s first fully electric car and was designed for speed, going from a speed of zero to 100 km/hr in just 5 seconds while offering an unparalleled ride comfort for a smooth ride.&nbsp; Its sleek body and character lines make it aerodynamically efficient for better performance while contributing to its prestigious minimalist appeal.</font>
+                  </p>
+                  <p class="lead" style="text-align: justify; ">
+                    <a href="#" class="btn btn-secondary btn-sm mb-2" data-original-title="" title="" aria-describedby="tooltip402668">Read More </a>
+                  </p>
+                </div>
+                <div class="carousel-content col-lg-6 o_colored_level">
+                  <p class="lead">
+                    <br>
+                  </p>
+                  <img class="img-fluid o_we_custom_image" src="{% static '/images/tesla.jpeg' %}" data-mimetype="image/jpeg" data-original-title="" title="" aria-describedby="tooltip68953" loading="lazy" style="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel1622288562942" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel1622288562942" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="s_text_block pt32 pb32 o_colored_level" data-snippet="s_text_block" data-name="Text">
+      <div class="container s_allow_columns">
+        <h6 style="text-align: center; font-family: TulpenOne;">
+          <b>
+            &nbsp;We take you to your destination, responsibly&nbsp; &nbsp;
+          </b>
+        </h6>
+        <p style="text-align: justify; font-family: AlegreyaSansRegular;">Luxury Chauffeur and Tours 
+          offers a convenient, sustainable, and comfortable way to travel by 
+          providing quality chauffeur services that are nothing short of luxury. 
+          Our exclusivity stems from our dedication to make the luxury 
+          transportation industry eco-friendly and more sustainable without 
+          compromising on the quality of our service delivery.</p>
+                  <p style="text-align: justify; font-family: AlegreyaSansRegular;">From special events and tour 
+          groups to those gruelling business trips, get ready to embark on a 
+          relaxing, comfortable drive with our professionally trained chauffeurs 
+          in one of our environmentally conscious luxury cars for hire.
+        </p>
+      </div>
+    </section>
+
+    <section class="s_title o_colored_level pt24 o_cc o_cc1 pb0" data-vcss="001" data-snippet="s_title" data-name="Title">
+      <div class="s_allow_columns container">
+        <h6 style="text-align: center; font-family: TulpenOne;">
+          <b>
+            What people have to say about our chauffeur services
+          </b>
+        </h6>
+      </div>
+    </section>
+
+    <section class="s_image_gallery pt24 o_colored_level s_image_gallery_show_indicators s_image_gallery_indicators_dots o_cc o_cc3 o_slideshow s_image_gallery_cover" data-vcss="001" data-columns="3" style="overflow: hidden; height: 685px;" data-snippet="s_image_gallery" data-name="Image Gallery">
+      <div class="container">
+        <div id="slideshow_1624893068498" class="carousel pb-5o slide" data-bs-ride="carousel" data-interval="3000" style="margin: 0 12px;">
+          <div class="carousel-inner" style="padding: 0;">
+
+            <div class="carousel-item" style="min-height: 661px;">
+              <img class="img img-fluid d-block img-thumbnail" src="{% static '/images/reviews/loc1.jpg' %}" data-name="Image" data-index="0" loading="lazy">
+            </div>
+
+            <div class="carousel-item" style="min-height: 661px;">
+              <img class="img img-fluid d-block img-thumbnail" src="{% static '/images/reviews/loc2.jpg' %}" data-name="Image" data-index="1" loading="lazy">
+            </div>
+
+            <div class="carousel-item" style="min-height: 661px;">
+              <img class="img img-fluid d-block img-thumbnail" src="{% static '/images/reviews/loc3.jpg' %}" data-name="Image" data-index="2" loading="lazy">
+            </div>
+
+            <div class="carousel-item" style="min-height: 661px;">
+              <img class="img img-fluid d-block img-thumbnail" src="{% static '/images/reviews/loc4.jpg' %}" data-name="Image" data-index="3" loading="lazy">
+            </div>
+
+            <div class="carousel-item" style="min-height: 661px;">
+              <img class="img img-fluid d-block img-thumbnail" src="{% static '/images/reviews/loc5.jpg' %}" data-name="Image" data-index="4" loading="lazy">
+            </div>
+
+            <div class="carousel-item" style="min-height: 661px;">
+              <img class="img img-fluid d-block img-thumbnail" src="{% static '/images/reviews/loc6.jpg' %}" data-name="Image" data-index="5" loading="lazy">
+            </div>
+
+            <div class="carousel-item active" style="min-height: 661px;">
+              <img class="img img-fluid d-block img-thumbnail" src="{% static '/images/reviews/loc7.jpg' %}" data-name="Image" data-index="6" loading="lazy">
+            </div>
+
+            <div class="carousel-item" style="min-height: 661px;">
+              <img class="img img-fluid d-block img-thumbnail" src="{% static '/images/reviews/loc8.jpg' %}" data-name="Image" data-index="7" loading="lazy">
+            </div>
+
+            <div class="carousel-item" style="min-height: 661px;">
+              <img class="img img-fluid d-block img-thumbnail" src="{% static '/images/reviews/loc9.jpg' %}" data-name="Image" data-index="8" loading="lazy">
+            </div>
+
+            <div class="carousel-item" style="min-height: 661px;">
+              <img class="img img-fluid d-block img-thumbnail" src="{% static '/images/reviews/loc10.jpg' %}" data-name="Image" data-index="9" loading="lazy">
+            </div>
+
+            <div class="carousel-item" style="min-height: 661px;">
+              <img class="img img-fluid d-block img-thumbnail" src="{% static '/images/reviews/loc11.jpg' %}" data-name="Image" data-index="10" loading="lazy">
+            </div>
+
+            <div class="carousel-item" style="min-height: 661px;">
+              <img class="img img-fluid d-block img-thumbnail" src="{% static '/images/reviews/loc12.jpg' %}" data-name="Image" data-index="11" loading="lazy">
+            </div>
+
+          </div>
+
+          <ul class="carousel-indicators">
+            <li data-target="#slideshow_1624893068498" data-bs-slide-to="0" style="background-image: url('/static/images/reviews/loc1.jpg')" class="">
+              <br>
+            </li>
+            <li data-target="#slideshow_1624893068498" data-bs-slide-to="1" style="background-image: url('/static/images/reviews/loc2.jpg')" class="">
+              <br>
+            </li>
+            <li data-target="#slideshow_1624893068498" data-bs-slide-to="2" style="background-image: url('/static/images/reviews/loc3.jpg')" class="">
+              <br>
+            </li>
+            <li data-target="#slideshow_1624893068498" data-bs-slide-to="3" style="background-image: url('/static/images/reviews/loc4.jpg')" class="">
+              <br>
+            </li>
+            <li data-target="#slideshow_1624893068498" data-bs-slide-to="4" style="background-image: url('/static/images/reviews/loc5.jpg')" class="">
+              <br>
+            </li>
+            <li data-target="#slideshow_1624893068498" data-bs-slide-to="5" style="background-image: url('/static/images/reviews/loc6.jpg')" class="">
+              <br>
+            </li>
+            <li data-target="#slideshow_1624893068498" data-bs-slide-to="6" style="background-image: url('/static/images/reviews/loc7.jpg')" class="active">
+              <br>
+            </li>
+            <li data-target="#slideshow_1624893068498" data-bs-slide-to="7" style="background-image: url('/static/images/reviews/loc8.jpg')" class="">
+              <br>
+            </li>
+            <li data-target="#slideshow_1624893068498" data-bs-slide-to="8" style="background-image: url('/static/images/reviews/loc9.jpg')" class="">
+              <br>
+            </li>
+            <li data-target="#slideshow_1624893068498" data-bs-slide-to="9" style="background-image: url('/static/images/reviews/loc10.jpg')" class="">
+              <br>
+            </li>
+            <li data-target="#slideshow_1624893068498" data-bs-slide-to="10" style="background-image: url('/static/images/reviews/loc11.jpg')" class="">
+              <br>
+            </li>
+            <li data-target="#slideshow_1624893068498" data-bs-slide-to="11" style="background-image: url('/static/images/reviews/loc12.jpg')" class="">
+              <br>
+            </li>
+          </ul>
+
+          <a class="carousel-control-prev o_we_no_overlay" data-bs-target="#slideshow_1624893068498" data-bs-slide="prev" aria-label="Previous" title="Previous">
+            <span class="fa fa-chevron-left fa-2x text-white"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+
+          <a class="carousel-control-next o_we_no_overlay" data-bs-target="#slideshow_1624893068498" data-bs-slide="next" aria-label="Next" title="Next">
+            <span class="fa fa-chevron-right fa-2x text-white" data-original-title="" title="" aria-describedby="tooltip825144"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="s_customer_review pt16 pb16 o_colored_level" data-snippet="s_customer_review_image_text" data-name="Customer Review Image - Text">
+      <div class="container">
+        <h2 class="text-center">Customer Review</h2>
+        <div class="row js_s_customer_review" data-template="s_customer_review_image_text_template"><div class="col-12 mt-3">
+              <div class="row border-bottom s_nb_column_fixed">
+                  <div class="col-3 c_img">
+                      <img class="img img-fluid mx-auto" alt="Priya  Khan" src="{% static '/images/icons/camera-icon.png' %}">
+                  </div>
+                  <div class="col-9">
+                      <div class="row s_nb_column_fixed">
+                          <h4 class="mr-3">Priya  Khan</h4>
+                          <div class="customer_review">
+                              
+      
+      
+      
+      <div class="o_website_rating_static">
+          
+              <i class="fa fa-star" role="img" aria-label="One star" title="One star"></i>
+          
+              <i class="fa fa-star" role="img" aria-label="One star" title="One star"></i>
+          
+              <i class="fa fa-star" role="img" aria-label="One star" title="One star"></i>
+          
+              <i class="fa fa-star" role="img" aria-label="One star" title="One star"></i>
+          
+              <i class="fa fa-star" role="img" aria-label="One star" title="One star"></i>
+          
+          
+          
+      </div>
+  
+                          </div>
+                      </div>
+                      <div class="row">
+                          <p>"Denzel has been a professional. The service was great and reasonable compared to any other limousine services in NSW"</p>
+                      </div>
+                  </div>
+              </div>
+          </div></div>
+      </div>
+    </section>
+
+    <section class="s_comparisons pt32 pb32 o_colored_level undefined o_half_screen_height o_animate o_anim_fade_in o_visible o_animated" data-snippet="s_comparisons" data-name="Comparisons" style="animation-name: o_anim_fade_in; visibility: visible; animation-play-state: running;">
+      <div class="container">
+        <div class="row">
+          <div class="s_col_no_bgcolor text-center pt32 pb16 col-lg-12" data-name="Box">
+            <div class="card shadow" style="border-style: double !important; border-color: rgb(70, 77, 83) !important;">
+              <div class="card-body text-center">
+                <h6 class="card-title">
+                  <span class="s_comparisons_currency">
+                    <font style="" class="text-800">&nbsp;Ready for an eco-luxury chauffeur service experience that is second to none?&nbsp;</font>
+                  </span>
+                </h6>
+                <small>&nbsp;</small>
+              </div>
+              <div class="card-footer">
+                <p>
+                  <a href="/shop/online-booking-7" class="btn resbt">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                    </svg>
+                    &nbsp;MAKE A RESERVATION</a>
+                  <i>
+                    <br>
+                  </i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Template Main JS File -->
+    <script src="{% static '/js/home.js' %}"></script>
+  </body>
+</html>
